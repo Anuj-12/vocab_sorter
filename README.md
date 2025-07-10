@@ -15,4 +15,19 @@ A Python script to automatically sort German vocabulary `.md` files exported fro
 ## Automation
 
 To run this script automatically (e.g. at 2 am every morning) add the following line to your crontab :  
-0 2 * * * /usr/bin/python3 *location of the srcipt*
+0 2 * * * /usr/bin/python3 {path to the srcipt}
+
+Or
+
+Add the script to your autostart folder where the ".desktop" file would like:
+
+```
+[Desktop Entry]
+Type=Application
+Exec=/usr/bin/python3 {path_to_your_script}
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name=Vocab Sorter
+Comment=Automatically sorts my German vocab files at login
+```
