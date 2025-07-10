@@ -19,7 +19,7 @@ To run this script automatically (e.g. at 2 am every morning) add the following 
 
 Or
 
-Add the script to your autostart folder where the ".desktop" file would like:
+Add the script to your autostart folder where the ".desktop" file would look like:
 
 ```
 [Desktop Entry]
